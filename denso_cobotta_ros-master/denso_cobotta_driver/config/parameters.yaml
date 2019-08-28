@@ -1,0 +1,9 @@
+# Rang value
+# Write joint value read from QR code.
+rang_value:
+  - 152.33
+  - -63.13
+  - 142.21
+  - -171.84
+  - 141.98
+  - 173.24
