@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+   
+  <!--include rabbot base joystick launch-->
+  <include file="$(find e100_teleop)/launch/joy_stick.launch"/>
+
+</launch>

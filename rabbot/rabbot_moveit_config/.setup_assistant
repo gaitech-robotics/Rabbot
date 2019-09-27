@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: rabbot_description
+    relative_path: include/urdf/rabbot.urdf.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/RABBOT.srdf
+  CONFIG:
+    author_name: Leo Chen
+    author_email: chenlinkai@gaitech.net
+    generated_timestamp: 1564110334

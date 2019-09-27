@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+<!--rabbot move_base launch-->
+<include file="$(find e100_navigation)/launch/move_base.launch"/>
+
+</launch>

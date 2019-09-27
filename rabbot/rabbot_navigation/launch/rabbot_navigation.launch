@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Run Map Server -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find rabbot_navigation)/maps/office_map.yaml">
+    <param name="frame_id" value="map"/>
+  </node>
+  
+  <!-- Run AMCL -->
+  <include file="$(find rabbot_navigation)/launch/rabbot_amcl.launch"/>
+
+  <!-- Run Move Base -->
+  <include file="$(find rabbot_navigation)/launch/rabbot_move_base.launch"/>
+
+</launch>

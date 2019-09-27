@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+<!-- rabbot hector-->
+<include file="$(find e100_navigation)/launch/slam_hector.launch"/>
+
+
+</launch>

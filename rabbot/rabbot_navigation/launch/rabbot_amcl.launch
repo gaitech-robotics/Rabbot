@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+<!--rabbot amcl launch-->
+<include file="$(find e100_navigation)/launch/amcl.launch"/>
+
+</launch>

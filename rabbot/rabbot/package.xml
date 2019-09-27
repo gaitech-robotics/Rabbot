@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package>
+  <name>rabbot</name>
+  <version>0.1.0</version>
+  <description> The packages to run all components of the rabbot </description>
+  <maintainer email="viswanath@gaitech.net"> Viswanath </maintainer>
+  <maintainer email="shlee@gaitech.kr"> Brighten Lee </maintainer>
+  <maintainer email="chenlinkai@gaitech.net"> Leo </maintainer>
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <run_depend>e100_bringup</run_depend>
+  <run_depend>e100_description</run_depend>
+  <run_depend>e100_navigation</run_depend> 
+  <run_depend>e100_teleop</run_depend>
+  <run_depend>e100_sim</run_depend>
+  <run_depend>rabbot_bringup</run_depend>
+  <run_depend>rabbot_description</run_depend>
+  <run_depend>rabbot_navigation</run_depend> 
+  <run_depend>rabbot_teleop</run_depend>
+  <run_depend>rabbot_moveit_config</run_depend>
+
+  
+  <export>
+    <metapackage/>
+  </export>
+</package>

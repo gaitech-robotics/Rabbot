@@ -1,0 +1,6 @@
+<launch>
+
+ <!-- rabbot gmapping-->
+ <include file="$(find e100_navigation)/launch/slam_gmapping.launch"/>
+
+</launch>

@@ -1,0 +1,22 @@
+<launch>
+
+<!-- A simple launch file for the urg_node package. -->
+
+<!--  When using an IP-connected LIDAR, populate the "ip_address" parameter with the address of the LIDAR.
+      Otherwise, leave it blank. If supported by your LIDAR, you may enable the publish_intensity
+      and/or publish_multiecho options. -->
+
+  <node name="urg_node" pkg="urg_node" type="urg_node" output="screen">
+    <param name="ip_address" value="192.168.0.10"/>
+    <param name="serial_port" value=""/>
+    <param name="serial_baud" value=""/>
+    <param name="frame_id" value="hokuyo_laser_link"/>
+    <param name="calibrate_time" value="true"/>
+    <param name="publish_intensity" value="false"/>
+    <param name="publish_multiecho" value="false"/>
+    <param name="angle_min" value="-1.745329222"/>
+    <param name="angle_max" value="1.745329222"/>
+
+  </node>
+  <!--node pkg="tf" type="static_transform_publisher" name="base_link_laser_tf" args="0 0 0.258  0 0 0 base_link laser 100"/-->
+</launch>
