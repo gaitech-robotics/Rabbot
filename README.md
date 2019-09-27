@@ -72,7 +72,7 @@ Now launch the keyboard control node:
 
 Further, we need to launch the gmapping slam by:
 
-       $roslaunch rabbot_navigation slam_gmapping.launch
+       $roslaunch rabbot_navigation rabbot_gmapping.launch
 
 And start move around in the whole environment, open rviz and visualize.
 
@@ -94,7 +94,7 @@ It is recommended to save the map in the path:
 
 The last step is to launch the navigation file by:
 
-      $ roslaunch rabbot_navigation navigation_sim.launch  
+      $ roslaunch rabbot_navigation rabbot_navigation.launch  
 
 
 
