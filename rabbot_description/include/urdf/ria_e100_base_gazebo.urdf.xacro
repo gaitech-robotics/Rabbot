@@ -12,14 +12,14 @@
       <geometry>
         <box size="0.03 0.03 0.03"/>
       </geometry>
-      <material name="Green"/>
+      <material name="Dark_Grey"/>
       <origin rpy="0 0 0" xyz="0 0 0"/>
     </visual>
     <collision>
       <geometry>
         <box size="0.03 0.03 0.03"/>
       </geometry>
-      <material name="Green"/>
+      <material name="Dark_Grey"/>
       <origin rpy="0 0 0" xyz="0 0 0"/>
     </collision>   
   </link>
@@ -34,7 +34,7 @@
       <geometry>
         <mesh filename="package://e100_description/include/meshes/base.stl" scale="0.001 0.001 0.001"/>
       </geometry>
-      <material name="Army_Green"/>
+      <material name="Dark_Grey"/>
       <origin rpy="${M_PI/2} 0 -${M_PI/2}" xyz="0.507 0.182 0"/>
     </visual>
     <collision>
@@ -46,7 +46,7 @@
   </link>
 
   <gazebo reference="RIA_BASE">
-    <material>Gazebo/Green</material>
+    <material>Gazebo/FlatBlack</material>
     <turnGravityOff>false</turnGravityOff>
   </gazebo>
 

@@ -19,7 +19,7 @@
 		<inertial>
 			<mass value="4.3125"/>
 			<origin rpy="0.000000 0.000000 0.000000" xyz="0.00056189 0.045262 -0.022289"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
 		</inertial>
 	</link>
 	<link name="J1">
@@ -38,7 +38,7 @@
 		<inertial>
 			<mass value="0.70059"/>
 			<origin rpy="0.000000 0.000000 0.000000" xyz="0.0066651 0.15765 -3.1112E-07"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
 		</inertial>
 	</link>
 	<joint name="joint_1" type="revolute">
@@ -76,7 +76,7 @@
 		<inertial>
 			<mass value="1.8946"/>
 			<origin rpy="0.000000 0.000000 0.000000" xyz="0.089465 0.077303 -0.012737"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
 		</inertial>
 	</link>
 	<joint name="joint_2" type="revolute">
@@ -114,7 +114,7 @@
 		<inertial>
 			<mass value="1.1026"/>
 			<origin rpy="0.000000 0.000000 0.000000" xyz="0.023381 0.026743 -0.0052682"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
 		</inertial>
 	</link>
 	<joint name="joint_3" type="revolute">
@@ -152,7 +152,7 @@
 		<inertial>
 			<mass value="0.81632"/>
 			<origin rpy="0.000000 0.000000 0.000000" xyz="0.018578 0.14195 -0.011998"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
 		</inertial>
 	</link>
 	<joint name="joint_4" type="revolute">
@@ -189,7 +189,7 @@
 		<inertial>
 			<mass value="0.46625"/>
 			<origin rpy="0.000000 0.000000 0.000000" xyz="0.0044081 2.4993E-07 0.0077893"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
 		</inertial>
 	</link>
 	<joint name="joint_5" type="revolute">
@@ -226,7 +226,7 @@
 		<inertial>
 			<mass value="0.03"/>
 			<origin rpy="0.000000 0.000000 0.000000" xyz="0.000000 0.000000 0.000000"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
 		</inertial>
 	</link>
 	<joint name="joint_6" type="revolute">
@@ -264,7 +264,7 @@
 		<inertial>
 			<mass value="0.05"/>
 			<origin rpy="0.000000 0.000000 0.000000" xyz="0.000000 0.000000 0.023089"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
 		</inertial>
 	</link>
 	<joint name="joint_gripper_base" type="fixed">
@@ -288,7 +288,7 @@
 		<inertial>
 			<mass value="0.01"/>
 			<origin rpy="0.000000 0.000000 0.000000" xyz="0.000000 0.000000 0.000000"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
 		</inertial>
 	</link>
 	<joint name="joint_gripper" type="prismatic">
@@ -325,7 +325,7 @@
 		<inertial>
 			<mass value="0.01"/>
 			<origin rpy="0.000000 0.000000 0.000000" xyz="0.000000 0.000000 0.000000"/>
-			<inertia ixx="0" ixy="0" ixz="0" iyy="0" iyz="0" izz="0"/>
+			<inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
 		</inertial>
 	</link>
 	<joint name="joint_gripper_mimic" type="prismatic">
