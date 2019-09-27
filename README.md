@@ -1,4 +1,5 @@
 # Rabbot
+(Need update)
 rabbot_sim Package
 
 rabbot_sim is a gazebo simulator. It provides the robot “rabbot”  model  with simulated sensors(such as the IMU, odometry sensor, and the rplidar, rgbd camra, other sensor  which can be mounted on the robot.), arm and mobile base.
