@@ -16,7 +16,7 @@ Install dependencies
 
       sudo apt install ros-kinetic-controller-manager ros-kinetic-gazebo-ros-control ros-kinetic-teleop-twist-keyboard ros-kinetic-teleop-twist-joy ros-kinetic-joy ros-kinetic-slam-gmapping ros-kinetic-hector-mapping ros-kinetic-hector-trajectory-server ros-kinetic-move-base ros-kinetic-map-server ros-kinetic-amcl ros-kinetic-teb-local-planner ros-kinetic-moveit*
 
-Creating Work Space and cloning RIA E100 package
+Creating Work Space and cloning Rabbot package
 
      mkdir –p ~/catkin_ws/src
      cd ~/catkin_ws/src
