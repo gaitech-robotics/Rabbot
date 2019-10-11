@@ -1,8 +1,8 @@
 # Rabbot #
 ## rabbot\_sim Package ##
 
-rabbot_sim is a gazebo simulator. It provides the robot “rabbot”  model  with simulated sensors(such as the IMU, odometry sensor, and the rplidar, rgbd camra, other sensor  which can be mounted on the robot.), arm and mobile base.
-This package contains some controllers, like teleop in an indoor worlds, a joystick controller. Below we provide the instructions necessary for getting started with the navigation in the simulation world.
+rabbot\_sim is a gazebo simulator. It provides the robot “rabbot”  model  with simulated sensors(such as the IMU, odometry sensor, the hokuyo laser, viper camra, other sensor  which can be mounted on the robot.), arm and mobile base.This package contains some controllers, like joint state controller, rabbot base controller,rabbot arm controller and rabbot gripper controller.    
+In this section, we provide the instructions necessary for getting started with the navigation in the simulation world.
 
 
 Installation
@@ -107,6 +107,9 @@ The last step is to launch the navigation file by:
 
 
 ## rabbot\_moveit\_config\_gazebo Package ##
+
+rabbot\_moveit\_config\_gazebo is the rabbot arm moveit config package used in gazebo. It provides rabbot arm move group interface. This package contains some controllers, like joint state controller, rabbot base controller,rabbot arm controller and rabbot gripper controller.  
+
 
 
 
