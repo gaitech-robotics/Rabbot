@@ -15,7 +15,7 @@
   </node>
 
   <node pkg="e100_teleop" type="joy_tele" name="e100_teleop">
-    <remap from="/cmd_vel" to="/teleop/cmd_vel"/>
+    <remap from="/cmd_vel" to="/rabbot_base_controller/cmd_vel"/>
   </node>
 
 </launch>
