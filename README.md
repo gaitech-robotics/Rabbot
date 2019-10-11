@@ -54,7 +54,7 @@ We will for now just send some constant command velocities to the robot by:
 
 Now, we are goining to send the command to the robot via keypoard by typing the following:
 
-        $ roslaunch rabbot_sim rabbot_keyboard.launch
+        $ roslaunch rabbot_teleop rabbot_keyboard.launch
 
 
 
@@ -63,7 +63,7 @@ Now, we are goining to send the command to the robot via keypoard by typing the 
 Connect a USB joystick to your computer and launch the file(Please check the js port number,default is js1. You can change in the launch file.)   
 Now, we are goining to send the command to the robot via joystick by typing the following:
 
-        $ roslaunch rabbot_sim rabbot_joystick.launch
+        $ roslaunch rabbot_teleop rabbot_joystick.launch
 
 
 
@@ -78,7 +78,7 @@ First launch the robot in the simulation world by:
 
 Now launch the keyboard control node:
 
-       $ roslaunch rabbot_sim rabbot_keyboard.launch
+       $ roslaunch rabbot_teleop rabbot_keyboard.launch
 
 Further, we need to launch the gmapping slam by:
 
