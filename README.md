@@ -1,6 +1,5 @@
-# Rabbot
-(Need update)
-rabbot_sim Package
+# Rabbot #
+## rabbot\_sim Package ##
 
 rabbot_sim is a gazebo simulator. It provides the robot “rabbot”  model  with simulated sensors(such as the IMU, odometry sensor, and the rplidar, rgbd camra, other sensor  which can be mounted on the robot.), arm and mobile base.
 This package contains some controllers, like teleop in an indoor worlds, a joystick controller. Below we provide the instructions necessary for getting started with the navigation in the simulation world.
@@ -46,7 +45,7 @@ To let the robot move you need to send velocity command,  There are currently a 
 
 We will for now just send some constant command velocities to the robot by:
 
-     $rostopic pub /ria_base_controller/cmd_vel geometry_msgs/Twist "linear: x: 1.0 y: 0.0 z: 0.0 angular: x: 0.0 y: 0.0 z: 0.0"  
+     $rostopic pub /rabbot_base_controller/cmd_vel geometry_msgs/Twist "linear: x: 1.0 y: 0.0 z: 0.0 angular: x: 0.0 y: 0.0 z: 0.0"  
 
 
 
@@ -54,7 +53,16 @@ We will for now just send some constant command velocities to the robot by:
 
 Now, we are goining to send the command to the robot via keypoard by typing the following:
 
-        $ roslaunch rabbot_sim keyboard.launch
+        $ roslaunch rabbot_sim rabbot_keyboard.launch
+
+
+
+•  Teleop using joystick
+
+Connect a USB joystick to your computer and launch the file(Please check the js port number,default is js1. You can change in the launch file.)   
+Now, we are goining to send the command to the robot via joystick by typing the following:
+
+        $ roslaunch rabbot_sim rabbot_joystick.launch
 
 
 
@@ -69,7 +77,7 @@ First launch the robot in the  simulation world by:
 
 Now launch the keyboard control node:
 
-       $ roslaunch rabbot_sim keyboard.launch
+       $ roslaunch rabbot_sim rabbot_keyboard.launch
 
 Further, we need to launch the gmapping slam by:
 
@@ -96,6 +104,9 @@ It is recommended to save the map in the path:
 The last step is to launch the navigation file by:
 
       $ roslaunch rabbot_navigation rabbot_navigation.launch  
+
+
+## rabbot\_moveit\_config\_gazebo Package ##
 
 
 
