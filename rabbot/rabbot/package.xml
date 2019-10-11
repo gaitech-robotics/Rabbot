@@ -12,12 +12,13 @@
   <run_depend>e100_description</run_depend>
   <run_depend>e100_navigation</run_depend> 
   <run_depend>e100_teleop</run_depend>
-  <run_depend>e100_sim</run_depend>
   <run_depend>rabbot_bringup</run_depend>
   <run_depend>rabbot_description</run_depend>
   <run_depend>rabbot_navigation</run_depend> 
   <run_depend>rabbot_teleop</run_depend>
+  <run_depend>rabbot_sim</run_depend>
   <run_depend>rabbot_moveit_config</run_depend>
+  <run_depend>rabbot_moveit_config_gazebo</run_depend>
 
   
   <export>
