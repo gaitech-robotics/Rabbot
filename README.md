@@ -1,11 +1,12 @@
-# Rabbot #
+
+# <font color=#0000FF >RABBOT</font> #
 ## rabbot\_sim Package ##
 
 rabbot\_sim is a gazebo simulator. It provides the robot “rabbot”  model  with simulated sensors(such as the IMU, odometry sensor, the hokuyo laser, viper camra, other sensor  which can be mounted on the robot.), arm and mobile base.This package contains some controllers, like joint state controller, rabbot base controller,rabbot arm controller and rabbot gripper controller.    
 In this section, we provide the instructions necessary for getting started with the navigation in the simulation world.
 
 
-Installation
+### Installation ###
 
 Note: Following steps are based on UBUNTU 16.04 with ROS-kinetic
 
@@ -29,7 +30,7 @@ Add env variable
        sudo echo "export USE_EKF='true'" >> ~/.bashrc
 
 
-Basic Usage
+### Basic Usage ###
 
 First, launch the simulation by use the following:
 
@@ -67,11 +68,11 @@ Now, we are goining to send the command to the robot via joystick by typing the 
 
 
 
-Navigation
+### Navigation ###
 
 Create a map using slam_gmapping:
 
-First launch the robot in the  simulation world by:
+First launch the robot in the simulation world by:
 
        $ roslaunch rabbot_sim gazebo.launch
 
@@ -108,13 +109,29 @@ The last step is to launch the navigation file by:
 
 ## rabbot\_moveit\_config\_gazebo Package ##
 
-rabbot\_moveit\_config\_gazebo is the rabbot arm moveit config package used in gazebo. It provides rabbot arm move group interface. This package contains some controllers, like joint state controller, rabbot base controller,rabbot arm controller and rabbot gripper controller.  
+rabbot\_moveit\_config\_gazebo is the rabbot arm moveit config package used in gazebo. It provides rabbot arm move group interface. 
+    
+In this section, we provide the instructions necessary for getting started with the arm control in the simulation world.
+
+
+First launch the robot in the simulation world by:
+
+       $ roslaunch rabbot_sim gazebo.launch
+
+Now launch the move group node:
+
+       $ roslaunch rabbot_moveit_config_gazebo move_group.launch
+
+We can control the arm with the move group rviz plugin:
+
+       $ roslaunch rabbot_moveit_config_gazebo moveit_rviz.launch
+
+For details on how to use Moveit, please see the [tutorial](http://docs.ros.org/melodic/api/moveit_tutorials/html/index.html "tutorial") on the official Moveit website.    
 
 
 
+**<table><tr><td bgcolor=orange> Note: gazebo version is recommended to install at least gazebo v7.x for full functionlity, (which is installed by default with ros kinetic).</td></tr></table>**
 
 
-Note: Gazebo Version,
-It is recommended to install at least Gazebo v7.x for full functionlity, (which is installed by default with ROS Kinetic).
-
-For more demos, please visit the official wiki here
+***
+<font color=#008000 >**V20191011**</font>
